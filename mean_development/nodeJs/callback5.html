@@ -34,7 +34,7 @@ getFile(myDisplayer);
       document.getElementById("demo").innerHTML = some;
     }
     
-    let myPromise = new Promise(function(myResolve, myReject) {
+    let myPromise = new Promise((myResolve, myReject)=> {
       let req = new XMLHttpRequest();
       req.open('GET', "htmldemo.html");
       req.onload = function() {
@@ -48,8 +48,8 @@ getFile(myDisplayer);
     });
     
     myPromise.then(
-      function(value) {myDisplayer(value);},
-      function(error) {myDisplayer(error);}
+      (value)=> {myDisplayer(value);},
+      (error)=> {myDisplayer(error);}
     );
     </script>
 

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- async await -->
+
+
+<h1 id="demo"></h1>
+
+<script>
+async function myDisplay() {
+  let myPromise = new Promise(function(resolve) {
+    setTimeout(function() {resolve("it appeared after 3 seconds !!");}, 3000);
+  });
+  document.getElementById("demo").innerHTML = await myPromise;
+}
+
+myDisplay();
+</script>
+
+</body>
+</html>
