@@ -265,15 +265,12 @@ function delete1(response, formdata) {
     response.end();
 
     var MongoClient = require('mongodb').MongoClient;
-
     var mongourl = 'mongodb://localhost:27017/';
     var ObjectId = require("mongodb").ObjectId;
-
     MongoClient.connect(mongourl, function (err, db) {
         if (err) throw err;
         var dbo = db.db('studentdb');
         var myobj = { "_id": ObjectId(userid) };
-
         dbo.collection('NodeToMongo').deleteOne(myobj, function (err, result) {
             if (err) throw err;
             console.log('1 document deleted');
