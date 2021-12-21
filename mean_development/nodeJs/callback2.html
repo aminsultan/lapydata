@@ -4,13 +4,25 @@
 
 <h1 id="demo"></h1>
 
-<script>
+<!--<script>
 setTimeout(myFunction, 3000);
 
 function myFunction() {
 
   document.getElementById("demo").innerHTML = "this is callback function";
 }
+</script>-->
+
+<!-- using promise -->
+
+<script>
+const myPromise = new Promise((myResolve, myReject)=> {
+  setTimeout(()=>{ myResolve("this is call back using promise!!"); }, 3000);
+});
+
+myPromise.then((value)=> {
+  document.getElementById("demo").innerHTML = value;
+});
 </script>
 
 </body>
