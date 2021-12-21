@@ -1,0 +1,15 @@
+html 
+    head 
+        title=MONGOOSE_1_LEARNING 
+    body 
+        if(user)
+            h1 #{user.message} 
+            
+            h2 person name is = #{user.personName}
+            h2 person's mail is = #{user.personMail}
+            h2 person's password = #{user.personPassword}
+            h2 person's Phone Number is =  #{user.Phone}
+            
+        else
+            h2 #{nouser.message}
+            h2 #{nouser.type}

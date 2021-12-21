@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <style>
+        table, th, td {
+  border: 2px solid black;
+  text-align: center;
+}
+th, td {
+  padding: 15px;
+  text-align: Center;    
+}
+        </style>
+    </head>
+<body>
+
+    <h2 align="center" style="background-color: grey"> My multilevel table</h2>
+
+
+    <table style="width:50%", align="center">
+   
+        <tr>
+            <th rowspan="2" colspan="2">Column0</th>
+            <th rowspan="2">Column1</th>
+            <th colspan="2">Column2</th>
+        </tr>
+        <tr>
+            <th>Column2a</th>
+            <th>Column2b</th>
+         </tr>
+
+          <tr>
+                <td rowspan="2">Row1</th>
+                <td>Row 1a</th>
+                <td>123</td>
+                <td>456</td>
+                <td>789</td>
+          </tr>
+          <tr>
+                <td>Row 1b</th>
+                <td>123</td>
+                <td>456</td>
+                <td>789</td>
+          </tr>
+          <tr>
+                <td colspan="2">Row 2</th>
+                <td>123</td>
+                <td>456</td>
+                <td>789</td>
+          </tr>
+  
+    </table>    
+</body>
+</html>

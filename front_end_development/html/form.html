@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Form</title>
+</head>
+
+<body>
+    <div>
+        <div>
+            <img src="masjide nabavi alaih salaam.jpg" width="1250px" alt="Masjide Nabavi صل الله عليه وسلم">
+        </div>
+        <div>
+            <h1>Tour Form</h1>
+            <div><iframe width="350px" src="https://www.youtube.com/embed/fxQJ6J517pM" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe></div>
+            <div>
+                <form action="form.php">
+                    <input type="text" name="student name" placeholder="Enter your name"> Your Name
+                    <br>
+                    <input type="number" name="contact" placeholder="Enter your Mobile Number"> Mobile Number
+                    <br>
+                    <input type="number" name="age" id="ageid" placeholder="enter your age"> Your Age
+                    <br>
+
+                    <select name="semester" id="semesterid">
+                        <option value=" ">Select your semester</option>
+                        <option value="eighth sem">8th sem</option>
+                        <option value="sixth sem">6th sem</option>
+                        <option value="fouth sem">4th sem</option>
+                    </select>
+                    <br>
+                    <p>select your gender</p>
+                    <label for="genderidM">
+                        <input type="radio" name="gender" id="genderidM"> Male
+                    </label>
+                    <label for="genderidF">
+                        <input type="radio" name="gender" id="genderidF"> Female
+                    </label>
+                    <br>
+                    <p>Click on your blood group</p>
+                    <label for="Apositive">
+                        <input type="radio" name="bloodgroup" id="Apositive"> A +
+                    </label>
+                    <label for="Anegative">
+                        <input type="radio" name="bloodgroup" id="Anegative"> A -
+                    </label>
+                    <label for="Bpositive">
+                        <input type="radio" name="bloodgroup" id="Bpositive"> B +
+                    </label>
+                    <label for="Bnegative">
+                        <input type="radio" name="bloodgroup" id="Bnegative"> B -
+                    </label>
+                    <br>
+                    <label for="ABpositive">
+                        <input type="radio" name="bloodgroup" id="ABpositive"> AB +
+                    </label>
+                    <label for="ABnegative">
+                        <input type="radio" name="bloodgroup" id="ABnegative"> AB -
+                    </label>
+                    <label for="Opositive">
+                        <input type="radio" name="bloodgroup" id="Opositive"> O +
+                    </label>
+                    <label for="Onegative">
+                        <input type="radio" name="bloodgroup" id="Onegative"> O -
+                    </label>
+                    <br>
+                    <input type="text" name="passportNumber" id="passportid"> enter your passport Number
+                    <br>
+                    <input type="text" name="AadhaarNumber" id="aadhaarid"> enter your aadhaar Number
+                    <br>
+                    <textarea name="identityMark" id="identityMarkid" cols="30" rows="10"
+                        placeholder="enter your identity mark"></textarea>
+                    <br>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

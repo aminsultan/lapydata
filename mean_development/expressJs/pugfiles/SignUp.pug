@@ -1,0 +1,23 @@
+html
+head
+   title Person
+   body
+      form(action = "/person", method = "POST")
+         div
+            label(for = "name") Name: 
+            input(name = "name", autofocus)
+         br
+         div
+            label(for = "mail") Mail: 
+            input(name = "mail", placeholder="xyz@appzminetech.com")
+         br
+         div 
+            label(for = "password") Password: 
+            input(name = "password", placeholder= "text+num+specialChar")
+            
+         br
+         div
+            label(for = "phone") Phone Number: 
+            input(name = "phone", placeholder="0987654321")
+         br
+         button(type = "submit") SignUp

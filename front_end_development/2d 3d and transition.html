@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ASHRAF ACADEMY</title>
+    <style>
+    div{
+        width: 405px;
+        height: 200px;
+        background: rgb(236, 236, 10);
+        position: relative;
+        transition: width 1s, height 1s, transform 1s;
+        font-size: 80px;
+        margin: 20px;
+        animation-name: mix;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+        animation-delay: 1s;
+        border-radius: 25px;
+    }
+    .tooltip{
+        position:relative;
+        display:inline-block;
+        border-bottom: 1px black;
+    }
+    .tooltip .tooltiptext1{
+        visibility: hidden;
+        width: 120px;
+        background-color:yellow;
+        color:blue;
+        text-align: center;
+        border-radius: 5px;
+        padding: 5px 0;
+        position: absolute;
+        z-index:1;
+        bottom:108%;
+        left:50%;
+        margin-left: -60px;
+    }
+    .tooltip .tooltiptext2{
+        visibility: hidden;
+        width: 120px;
+        background-color:yellow;
+        color:blue;
+        text-align: center;
+        border-radius: 5px;
+        padding: 5px 0;
+        position: absolute;
+        z-index:1;
+        bottom:27%;
+        left:-63%;
+        margin-left: -60px;
+    }
+    .tooltip .tooltiptext3{
+        visibility: hidden;
+        width: 120px;
+        background-color:yellow;
+        color:blue;
+        text-align: center;
+        border-radius: 5px;
+        padding: 5px 0;
+        position: absolute;
+        z-index:1;
+        bottom:-90%;
+        left:50%;
+        margin-left: -60px;
+    }
+    .tooltip .tooltiptext4{
+        visibility: hidden;
+        width: 120px;
+        background-color:yellow;
+        color:blue;
+        text-align: center;
+        border-radius: 5px;
+        padding: 5px 0;
+        position: absolute;
+        z-index:1;
+        bottom:10%;
+        left:155%;
+        margin-left: -60px;
+    }
+    .tooltip:hover .tooltiptext1{
+        visibility: visible;
+    }
+    .tooltip:hover .tooltiptext2{
+        visibility: visible;
+    }
+    .tooltip:hover .tooltiptext3{
+        visibility: visible;
+    }
+    .tooltip:hover .tooltiptext4{
+        visibility: visible;
+    }
+    
+    
+    @keyframes mix{
+        0%{background-color: red; left:0px ; top:0px;}
+        1%{background-color: red; left:0px ; top:0px;transform: rotate(45deg);}
+        50%{background-color: red; left:1000px ; top:0px;transform: rotate(0deg);}
+        100%{background-color: red; left:0px ; top:0px;transform: rotate(-360deg);}
+        /* 4%{background-color: red; left:0px ; top:0px;transform: rotate(360deg);} 
+        5%{background-color:orange; left:0px ; top:0px;transform: rotate(390deg);}
+        33%{background-color: orange;left:1000px ; top:0px;transform: rotate(405deg);}
+        66%{background-color: yellow;left:1000px ; top:200px;transform: rotate(450deg);}
+        99%{background-color: orange;left:0px ; top:0px;transform: rotate(495deg);}
+        100%{background-color: red;left:0px ; top:0px;transform: rotate(720deg);}*/
+    }
+    @keyframes for_hover{
+        0%{background-color: red;transform: rotate()}
+        20%{background-color: rgb(38, 255, 0);}
+        40%{background-color: yellow;}
+        60%{background-color: rgb(102, 255, 0);}
+        100%{background-color: red;}
+    }
+
+    div:hover{
+        width: 100px;
+        height: 100px;
+        transform: rotate(360deg);
+        /*background-color: yellow;*/
+        animation-name: for_hover;
+        border-radius: 50px;
+    }
+    .tooltip .tooltiptext1::after{
+        content: "";
+        position:absolute;
+        top: 100%;
+        left:50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color:black transparent transparent transparent;
+    }
+    .tooltip .tooltiptext2::after{
+        content: "";
+        position:absolute;
+        top: 26%;
+        left:105%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: transparent transparent transparent black;
+    }
+    .tooltip .tooltiptext3::after{
+        content: "";
+        position:absolute;
+        top: -25%;
+        left:50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: transparent transparent black transparent;
+    }
+    .tooltip .tooltiptext4::after{
+        content: "";
+        position:absolute;
+        top: 40%;
+        left:-5%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color:transparent black transparent transparent;
+    }
+    </style>
+</head>
+<body>
+    <div>ASHRAF ACADEMY</div>
+    <p class="tooltip" style="padding: 20px; background-color: chartreuse; margin: 30px ">ETC HOD
+        <span class="tooltiptext1">M.Nasiruddin</span>
+    </p>
+    <p class="tooltip" style="padding: 20px; background-color: chartreuse; margin: 30px ">CSE HOD
+        <span class="tooltiptext2">M.S.Khatib</span>
+    </p>
+    <p class="tooltip" style="padding: 20px ; background-color: chartreuse; margin: 30px ">ME HOD
+        <span class="tooltiptext3">AKASH LANGDE</span>
+    </p>
+    <p class="tooltip" style="padding: 20px; background-color: chartreuse; margin: 30px ">EXPO HOD
+        <span class="tooltiptext4">ARCHANA SHIRBATE</span>
+    </p> 
+    <p class="tooltip" style="padding: 20px; background-color: chartreuse; margin: 30px ">CIVIL HOD
+        <span class="tooltiptext1">ASHFAQUE ANSARI</span>
+    </p>
+    <p class="tooltip" style="padding: 20px; background-color: chartreuse; margin: 30px">S & H HOD
+        <span class="tooltiptext1">MRS.NAWAZ KHAN</span>
+    </p>
+</body>
+</html>
+
+

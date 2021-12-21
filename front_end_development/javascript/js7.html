@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js7</title>
+</head>
+<body>
+    <input type="text" id="num">
+    <input type="button" value="find even or odd" onclick="showresult()">
+    <p id="result"></p>
+
+    <script>
+        function showresult(){
+            let a;
+            a=parseInt(document.getElementById("num").value);
+            if(a%2 == 0){
+                document.getElementById("result").innerHTML= a +" is divisible by 2 and it is even";
+            }
+            else{
+                document.getElementById("result").innerHTML = a +"is not divisible by 2 and it is an odd number";
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="image_cropper.css">
+
+
+</head>
+
+<body>
+    <div>
+        <img id="myimage" src="Car-Wallpaper1.jpg">
+
+    </div>
+    <div>
+        <button onclick="rotateimg()" class="link_button">Rotate</button>
+        <button type="button" class="link_button">Flip Vertical</button>
+        <button type="button" class="link_button">Flip Horizontal</button>
+        <button type="button" class="link_button">Zoom In</button>
+        <button type="button" class="link_button">Zoom Out</button>
+        <button type="button" class="link_button">Download</button>
+
+
+    </div>
+    <script src="./image_cropper.js">
+    </script>
+    <script>
+        let originalangle = 0;
+        function rotateimg() {
+            originalangle += 90;
+            
+            document.getElementById("myimage").style.transform="rotateZ("+originalangle+"deg)";
+        }
+    </script>
+</body>
+
+</html>

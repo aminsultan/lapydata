@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="alert('hello Javascript')">Click Here</button>
+
+    <!-- this is another type -->
+
+    <p>this is another way to call an alert, kindly see the code to understand</p>
+    
+
+
+    <button onclick="myfun()">click me</button>
+    <p id="mypara2">this is another way to call a function, kindly see the code to understand</p>
+    <button onclick="myfun2()">click me</button>
+
+    <p id= "mypara">now just learn how to change the text of this paragraph</p>
+    <button onclick="document.getElementById('mypara').innerHTML='changed para'">to change the para</button>
+
+    <img src="nature image.jpg" id="myimage">
+    <button onclick="myfun3()">change the image</button>
+
+    
+
+
+
+    <script>
+        function myfun(){
+            alert("Hello friends, this is another way of calling an alert");
+        }
+        function myfun2(){
+            document.getElementById("mypara2").style.color="red";
+            document.getElementById("mypara2").style.backgroundColor="black";
+            document.getElementById("mypara2").style.padding='20px';
+        }
+        function myfun3(){
+            document.getElementById('myimage').src="laptop mobile coffee.jpg";
+
+        }
+        
+    </script>
+</body>
+</html>

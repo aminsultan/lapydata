@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <style>
+                    .size_of_btn{
+                        padding: 18px;
+                        margin: 2px ;
+                    }
+                </style>
+    </head>
+    <body>
+<p id="para1">this is new for me</p>
+<button onclick="f1()">JS is fun</button>
+<script>
+    function f1() {
+        document.getElementById("para1").style.fontSize="40px";
+        document.getElementById("para1").style.color="red";
+        document.getElementById("para1").style.padding="10px";
+    }
+</script>
+
+
+<img src="bulb off.gif" id="myimg"/>
+<button onclick="f2()">switch on</button>
+<script>
+    function f2(){
+        document.getElementById("myimg").src="bulb on.gif";
+    }
+</script>
+
+<input type="number" id="num1"/>
+<input type="number" id="num2"/>
+<button onclick="add()">add</button>
+<button onclick="sub()">subtract</button>
+<button onclick="mul()">multiply</button>
+<button onclick="div()">divide</button>
+<script>
+    function add(){
+        var x,y,z;
+        x=parseInt(document.getElementById("num1").value);
+        y=parseInt(document.getElementById("num2").value);
+        z=x+y;
+        alert(z);
+    }
+</script>
+<script>
+    function sub(){
+        var x,y,z;
+        x=parseInt(document.getElementById("num1").value);
+        y=parseInt(document.getElementById("num2").value);
+        z=x-y;
+        alert(z);
+    }
+</script>
+<script>
+    function mul(){
+        var x,y,z;
+        x=parseInt(document.getElementById("num1").value);
+        y=parseInt(document.getElementById("num2").value);
+        z=x*y;
+        alert(z);
+    }
+</script>
+<script>
+    function div(){
+        var x,y,z;
+        x=parseInt(document.getElementById("num1").value);
+        y=parseInt(document.getElementById("num2").value);
+        z=x/y;
+        alert(z);
+    }
+</script></br>
+</br>
+<textarea id="textar"></textarea>
+</br>
+
+<input class="size_of_btn" type="button" value="1" id="one"
+onclick="loaddata(this.value)"/>
+<input class="size_of_btn" type="button" value="2" id="two" onclick="loaddata(this.value)"/>
+<input class="size_of_btn" type="button" value="3" id="three" onclick="loaddata(this.value)"/></br>
+<input class="size_of_btn" type="button" value="4" id="four" onclick="loaddata(this.value)"/>
+<input class="size_of_btn" type="button" value="5" id="five" onclick="loaddata(this.value)"/>
+<input class="size_of_btn" type="button" value="6" id="six" onclick="loaddata(this.value)"/></br>
+<input class="size_of_btn" type="button" value="7" id="seven" onclick="loaddata(this.value)"/>
+<input class="size_of_btn" type="button" value="8" id="eight" onclick="loaddata(this.value)"/>
+<input class="size_of_btn" type="button" value="9" id="nine" onclick="loaddata(this.value)"/></br>
+<input class="size_of_btn" type="button" value="0" id="zero" onclick="loaddata(this.value)"/>
+<input class="size_of_btn" type="button" value="+" id="plus" onclick="loaddata(this.value)"/>
+<input class="size_of_btn" type="button" value="-" id="minus" onclick="loaddata(this.value)"/></br>
+<input class="size_of_btn" type="button" value="*" id="multiply" onclick="loaddata(this.value)"/>
+<input class="size_of_btn" type="button" value="/" id="divide" onclick="loaddata(this.value)"/>
+<input class="size_of_btn" type="button" value="=" id="equal" onclick="calculate()"/>
+
+
+<script>
+    var result="";
+    function loaddata(x){
+        result=result+x;
+        document.getElementById("textar").innerHTML=result;
+    }
+    function calculate() {
+        document.getElementById("textar").innerHTML=eval(result);
+        result="";
+    }
+</script>
+
+</body>
+</html>

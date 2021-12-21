@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Text on Image</title>
+        <style>
+        .container{
+            position:relative;
+        }
+        .topleft{
+            position: absolute;
+            top: 6px;
+            left: 10px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .topright{
+            position: absolute;
+            top: 6px;
+            right: 10px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .bottomleft{
+            position: absolute;
+            bottom: 6px;
+            left: 10px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .bottomright{
+            position: absolute;
+            bottom: 6px;
+            right: 10px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .center{
+            position:absolute;
+            top: 50%;
+            left: 0;
+            text-align: center;
+            width: 100%;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        img {
+           width: 100%;
+           height: 400px;
+           opacity: 0.3;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>Image with Text</h1>
+        <div class="container">
+            <img src="river2.jpg" alt="river1.jpg">
+            <div class="topleft">Top Left</div>
+            <div class="topright">Top Right</div>
+            <div class="bottomleft">Bottom Left</div>
+            <div class="bottomright">Bottom Right</div>
+            <div style="position: absolute;top: 50%;left: 0;text-align: center;font-size: 18px;font-weight: bold;width:100%">Centered</div>                                                      
+        </div>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+<head>
+        <title>to learn inheritance of class of java script</title>
+    </head>
+    <body>
+        <h1>learning inheritance</h1>
+        <script>
+            
+class A{
+    showA(){
+        console.log("show A");
+    }
+}
+class B extends A{
+    showB(){
+        console.log("show B");
+
+    }
+}
+class C extends B{
+    showC(){
+        console.log("show C");
+
+    }
+}
+var obja=new A();
+var objb=new B();
+var objc=new C();
+obja.showA();
+objb.showA();
+objb.showB();
+objc.showA();
+objc.showB();
+objc.showC();
+
+        </script>
+        </body>

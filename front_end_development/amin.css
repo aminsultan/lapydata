@@ -1,0 +1,38 @@
+h1{
+    background-color: blue;
+    padding: 20px; width:900px;
+    border:2px solid red;
+    font-size:150px;
+    margin-left: 200px;
+}
+p{
+    background-color: aqua; width:500px;
+    border: 2px dashed green;
+    font-size:50px;
+
+}
+/**#fun{
+    background-color: brown;
+    border: 2px dashed green;
+    margin-left: 200px;
+
+}**/
+#study{
+    background-color: blue;
+    padding: 20px; width:500px;
+    border:2px solid red;  
+    margin-left: 200px;
+}
+#earning{
+    background-color: aqua; width:500px;
+    border: 2px dashed green;
+    font-size:50px;  
+    margin-left: 200px;
+}
+.aminstyle{
+    background-color: blue;
+    padding: 20px; width:900px;
+    border:2px solid red;
+    font-size:150px;
+    margin-left: 200px; 
+}

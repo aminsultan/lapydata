@@ -1,0 +1,28 @@
+<!-- javascript can change the internal value or text of an HTML i.e. called as inner html -->
+<!Doctype html>
+<html>
+    <head>
+        <title>javascript1</title>
+    </head>
+    <body>
+        <h1>how to change the inner html content</h1>
+        <h3 id="html1">i will change after clicking on "button"</h3>
+        <button onclick="myfunction()">button</button>
+
+        <button onclick="document.getElementById('myImage').src='switched on.gif'">switch on</button>
+        <img id = "myImage" src="switched off.gif">
+        <button onclick="document.getElementById('myImage').src='switched off.gif'">switch off</button>
+        <p id="fontchange" >by clicking on "click" my font will get changed, and by clicking on "original size" you will get me again</p>
+        <button onclick="document.getElementById('fontchange').style.fontSize='26px'">click</button>
+        <button onclick="document.getElementById('fontchange').style.fontSize='16px'">original size</button>
+        <button onclick="document.getElementById('fontchange').style.display='none'">click to hide</button>
+        <button onclick="document.getElementById('fontchange').style.display='block'">click to unhide</button>
+        
+        <script>
+        function myfunction(){
+            document.getElementById("html1").innerHTML="this is javascript magic";
+        }    
+        </script>
+    </body>
+    
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body,
+        html {
+            background-image: url("dark image.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 100%;
+        }
+
+        .container {
+            border: 1px solid black;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            margin-right: 250px;
+            margin-left: 250px;
+            background-color: rgb(36, 40, 48);
+        }
+
+        .row {
+            width: 100%;
+            display: inline-block;
+        }
+
+        .col1 {
+            width: 25%;
+            float: left;
+        }
+
+        .col2 {
+            width: 75%;
+            float: left;
+
+        }
+
+        input {
+            padding: 10px;
+            width: 90%;
+            margin-top: 5px;
+        }
+
+        select {
+            padding: 10px;
+            width: 50%;
+            margin-top: 5px;
+        }
+
+        ::placeholder {
+            color: black;
+        }
+
+        .date {
+            width: 25%;
+            float: left;
+            margin-right: 5px;
+        }
+
+        .time {
+            width: 25%;
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center; margin-top: 50px; color: white;">EVENT REGISTRAION FORM</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col1">
+                <p style="margin-left: 10px;">Your Name</p>
+            </div>
+            <div class="col2" style="font-size: 25px;">
+                <input type="text" name="fname" value=" enter your name please"
+                    style="background-color: rgb(102, 110, 110);">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col1">
+                <p style="margin-left: 10px;">Your Email</p>
+            </div>
+            <div class="col2" style="font-size: 25px;">
+                <input type="email" name="fname" value=" enter your email please"
+                    style="background-color: rgb(102, 110, 110);">
+            </div>
+            <div class="row">
+                <div class="col1">
+                    <p style="margin-left: 10px;">Your Phone number</p>
+                </div>
+                <div class="col2" style="font-size: 25px;">
+                    <input type="number" name="fname" placeholder="Phone Number"
+                        style="background-color: rgb(102, 110, 110); ">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col1">
+                    <p style="margin-left: 10px;">Number of Persons</p>
+                </div>
+                <div class="col2" style="font-size: 25px;">
+                    <select style="background-color: rgb(102, 110, 110);">
+                        <option value="select numbers">Select numbers</option>
+                        <option value="select numbers">1</option>
+                        <option value="select numbers">2</option>
+                        <option value="select numbers">3</option>
+                        <option value="select numbers">4</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col1">
+                    <p style="margin-left: 10px;">Date/Time</p>
+                </div>
+                <div class="col2" style="font-size: 25px;">
+                    <input type="date" class="date" style="background-color: rgb(102, 110, 110); ">
+
+                    <input type="time" class="time" style="background-color: rgb(102, 110, 110); ">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div style="margin-left: 10px;">
+                <h3> PLEASE CHOOSE YOUR FAVORITE FOOD</h3>
+            </div>
+
+        </div>
+        <!-- <div class="col1">
+            <input type="radio" id="veg" value="Veg">
+            <label for="veg">Veg</label>
+            <input type="radio" id="non-veg" value="Non-Veg">
+            <label for="non-veg">Non-Veg</label>
+        </div> -->
+</body>
+
+</html>

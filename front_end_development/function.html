@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+
+        <!-- without parameter without return -->
+        <script> 
+        
+        function add1(){
+            var x,y,z;
+            x=10;
+            y=20;
+            z=x+y;
+            alert(z);
+
+        }
+        </script>
+        <button onclick="add1()">show</button>
+
+
+        <!-- with parameter without return -->
+        <script> 
+        
+                function add(x,y){
+                    var z;
+                    
+                    z=x+y;
+                    alert(z);
+        
+                }
+                </script>
+                <button onclick="add(10,30)">click</button>
+
+
+                <!-- without parameter with return -->
+                <h2 id="result"></h2>
+                <script> 
+        
+                        function add2(){
+                            var x,y,z;
+                            x=10;
+                            y=20;
+                            z=x+y;
+                            return z;
+                        }
+                        document.getElementById("result").innerHTML=add2();
+                </script>
+                
+
+                <!-- with parameter with return -->
+                <h2 id="result1"></h2>
+                <script> 
+        
+                        function add3(x,y){
+                            var z;
+                            
+                            z=x+y;
+                            return z;
+                        }
+                        document.getElementById("result1").innerHTML=add3(10,40);
+                </script>
+            <!-- object -->
+            <h1 id="sumo"></h1>
+            <script>
+                var myobj={
+                    "fname":"ABC","lname":"xyz","city":"nagpur","age":"81"
+                    };
+                    document.getElementById("sumo").innerHTML=myobj.lname+myobj["age"];
+            </script>
+            <!-- object arry -->
+            <h2 id="pappu"></h2>
+            <script>
+                var myobj=[{"Sr_No":"1","Name_of_Student":"xyz","city":"nagpur","age":"19"},
+                {"Sr_No":"2","Name_of_Student":"abc","city":"nagpur","age":"20"},
+                {"Sr_No":"3","Name_of_Student":"lmn","city":"nagpur","age":"21"}
+                ];
+                document.getElementById("pappu").innerHTML=myobj[0].Name_of_Student;
+            </script>
+    </body>
+
+
+
+</html>

@@ -1,0 +1,10 @@
+html 
+    head 
+        title=dynamic_again 
+    body 
+        if(user)
+            h1 Hi, #{user.name} 
+            h2 age= #{user.age}
+            
+        else
+            a(href="sign_up") Sign Up

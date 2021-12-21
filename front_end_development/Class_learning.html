@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>to learn class of java script</title>
+    </head>
+    <body>
+        <script>
+            class Demo{
+                fname;
+                lname;
+                getdata(f,l){
+                    this.fname=f;
+                    this.lname=l;
+                }
+                showdata(){
+                    console.log("fname="+this.fname+" "+this.lname);
+
+                }
+            }
+
+            var d1=new Demo();
+            var d2=new Demo();
+            d1.getdata("Hello","world");
+            d1.showdata();
+            d2.getdata("amin", "sultan");
+            d2.showdata();
+            
+            
+    
+            </script>
+    </body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <style>
+        table, th, td {
+  border: 2px solid black;
+  text-align: center;
+}
+th, td {
+  padding: 15px;
+  text-align: Center;    
+}
+        </style>
+    </head>
+<body>
+
+    
+
+
+    <table style="width:100%", align="center">
+    <tr>
+        <th colspan="5">image</th> 
+    </th> 
+        <tr>
+            <th rowspan="5">Home <br/> About<br/>Contact<br/>Gallery<br/></th>
+        </tr>
+        <tr>
+            <th>Home</th>
+            <th>About</th>
+            <th>Contact</th>
+            <th>Gallery</th>
+         </tr>
+         <tr>
+                <td rowspan="4" colspan="4"></td>
+            
+         </tr>
+  
+         <tr>
+            <td colspan="5" >Copyright. All rights reserved</td>
+         </tr>
+         

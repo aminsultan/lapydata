@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+   <!-- <head>
+            <meta http-equiv="refresh" content="5">
+    </head> -->
+<body>
+<script>
+function hair(sw) {
+  var pic;
+  if (sw == 0) {
+    pic = "before.jpg"
+  } else {
+    pic = "after.jpg"
+  }
+  document.getElementById('myImage').src = pic;
+}
+</script>
+
+<img id="myImage" src="before.jpg" width="200" height="300">
+
+<p>
+
+<button type="button" onclick="hair(0)">BEFORE</button>
+<button type="button" onclick="hair(1)">AFTER</button>
+</p>
+
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div>
+            
+              <img id="image" src="Car-Wallpaper1.jpg">
+            
+            </div>
+            <script>
+            var image = document.getElementById('image');
+
+                var myCropper = new Cropper(image, {
+
+                    viewMode: 0,
+                    dragMode: DRAG_MODE_CROP,
+                    initialAspectRatio: NaN,
+                    aspectRatio: NaN,
+                    data: null,
+                    preview: '',
+                    responsive: true,
+                    restore: true,
+                    checkCrossOrigin: true,
+                    checkOrientation: true,
+                    modal: true,
+                    guides: true,
+                    center: true,
+                    highlight: true,
+                    background: true,
+                    autoCrop: true,
+                    autoCropArea: 0.8,
+                    movable: true,
+                    rotatable: true,
+                    scalable: true,
+                    zoomable: true,
+                    zoomOnTouch: true,
+                    zoomOnWheel: true,
+                    wheelZoomRatio: 0.1,
+                    cropBoxMovable: true,
+                    cropBoxResizable: true,
+                    toggleDragModeOnDblclick: true,
+                    minCanvasWidth: 0,
+
+    minCanvasHeight: 0,
+    minCropBoxWidth: 0,
+    minCropBoxHeight: 0,
+    minContainerWidth: 200,
+    minContainerHeight: 100,
+    ready: null,
+    cropstart: null,
+    cropmove: null,
+    cropend: null,
+    crop: null,
+    zoom: null
+     
+  }
+});
+var image = document.getElementById('image');
+var myCropper = new Cropper(image);
+myCropper.enable();
+myCropper.disable();
+myCropper.destroy();
+myCropper.crop();
+myCropper.reset();
+myCropper.clear();
+myCropper.replace(url, hasSameSize);
+myCropper.move(X, Y);
+myCropper.moveTo(X, Y);
+myCropper.zoom(ratio);
+myCropper.zoomTo(ratio, pivot);
+myCropper.rotate(degree);
+myCropper.rotateTo(degree);
+myCropper.scale(scaleX, scaleY);
+myCropper.scaleX(scaleX);
+myCropper.scaleY(scaleY);
+ 
+// gets the cropper data
+myCropper.getData(rounded);
+ 
+
+// sets the cropper data
+myCropper.setData(data);
+ 
+// gets container's data
+myCropper.getContainerData();
+
+// gets image data
+myCropper.getImageData();
+
+// gets canvas data
+myCropper.getCanvasData();
+// sets canvas data
+myCropper.setCanvasData(data);
+
+// gets data of crop box
+myCropper.getCropBoxData();
+// set box data;
+myCropper.setCropBoxData(data);
+myCropper.getCroppedCanvas(options);
+
+// sets aspect ratio
+myCropper.setAspectRatio(aspectRatio);
+// sets drag mode: 'none', 'crop', 'move'
+myCropper.setDragMode([mode])
+image.addEventListener('cropstart', (event) => {
+  console.log(event.detail.originalEvent);
+  console.log(event.detail.action);
+});
+// Fires when the crop box is changing.
+image.addEventListener('cropmove', (event) => {
+  console.log(event.detail.originalEvent);
+  console.log(event.detail.action);
+});
+// Fires when the crop box stops to change.
+image.addEventListener('cropend', (event) => {
+  console.log(event.detail.originalEvent);
+  console.log(event.detail.action);
+});
+// Fires when cropping
+image.addEventListener('cropend', (event) => {
+  console.log(event.detail.x);
+  console.log(event.detail.y);
+  console.log(event.detail.width);
+  console.log(event.detail.height);
+  console.log(event.detail.rotate);
+  console.log(event.detail.scaleX);
+  console.log(event.detail.scaleY);
+});
+// Fires when zooming
+image.addEventListener('zoom', (event) => {
+  console.log(event.detail.originalEvent);
+  console.log(event.detail.oldRatio);
+  console.log(event.detail.ratio);
+});
+
+
+
+
+
+
+            </script>
+            
+    </body>
+</html>

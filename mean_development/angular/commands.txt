@@ -1,0 +1,14 @@
+npm install -g @angular/cli
+
+ng --version
+
+1. for new project every time:
+ng new myfirstapp
+
+cd myfirstapp
+
+ng serve --poll=4200 --open
+
+now delete all the file of app.component.html
+
+and write one element only

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <ul type="circle">
+        <li title="unordered list">Home</li>
+        <li title="unordered list">About</li>
+        <li title="unordered list">Services</li>
+        <li title="unordered list">Contact</li>
+    </ul>
+    <ol type="I">
+        <li title="ordered list">Home</li>
+        <li title="ordered list">About</li>
+        <li title="ordered list">Services</li>
+        <li title="ordered list">Contact</li>
+    </ol>
+    <div>
+        <table>
+            <caption>Max Score by different players</caption>
+            <tr>
+                <th>Sr. No.</th>
+                <th colspan="3">Player Name</th>
+                <!-- <th>Max Score</th>
+               <th>Game</th> -->
+            </tr>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Sachin</td>
+                    <td>220</td>
+                    <td>Cricket</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Azhar</td>
+                    <td>210</td>
+                    <td>Cricket</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>jadeja</td>
+                    <td>200</td>
+                    <td>Cricket</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <h1>Form</h1>
+    <div>
+        <form action="form.php">
+            <input type="text" placeholder="enter your name"><br>
+            <label for="sectionida">
+                <input type="radio" name="Section" value="section A" id="sectionid"> Section A
+            </label><br>
+
+            <label for="sectionidb">
+                <input type="radio" name="Section" value="section B" id="sectionidb"> Section B
+            </label><br>
+            <label for="sectionidc">
+                <input type="radio" name="Section" value="section C" id="sectionidc"> Section C
+            </label><br>
+            <label for="foodcanteen">
+            <input type="checkbox" name="canteen" id="foodcanteen" class="red">Want food canteen card</label>
+            <br>
+            <input type="datetime-local" name="time" id="timeid">
+            <br>
+            <textarea name="textname" id="textid" cols="30" rows="10" placeholder="tell me your issue"></textarea>
+            <br>
+            <select name="car" id="carid">
+                <option value="no car">select your car</option>
+                <option value="omni">omni</option>
+                <option value="swift">swift</option>
+                <option value="swift">swift dezire</option>
+            </select>
+            <br>
+            <button>submit</button>
+        </form>
+    </div>
+    <div>
+        <p><a href="mailto:aminsultan10@gmail.com">send mail</a></p>
+    </div>
+
+</body>
+
+</html>

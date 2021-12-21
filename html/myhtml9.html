@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- now to change the images by calling 4 different functions -->
+
+    <img src="laptop mobile coffee.jpg" id="myimage" height="200px" width="300px">
+
+    <button onclick="img1()">first image</button>
+    <button onclick="img2()">second image</button>
+    <button onclick="img3()">third image</button>
+    <button onclick="img4()">fourth image</button>
+
+    <script>
+        function img1(){
+            document.getElementById('myimage').src="dell image.jpg";
+        }
+        function img2(){
+            document.getElementById('myimage').src="coffee.jpg";
+        }
+        function img3(){
+            document.getElementById('myimage').src="SamsungMobile.jpg";
+        }
+        function img4(){
+            document.getElementById('myimage').src="red-rose-flower-500x500.jpg";
+        }
+        
+    </script>
+</body>
+</html>

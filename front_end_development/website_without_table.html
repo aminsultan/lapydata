@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>
+        website without table usage
+    </title>
+    <style>
+      
+        *{
+            box-sizing: border-box;
+        }
+        .main_nav {
+            list-style-type: circle;
+            color:black;
+            margin: 20px;
+            padding: 5px;
+            overflow: hidden;
+            background-color: blue;
+            font-size: 20px;
+        }
+        
+        
+       /* .main_nav li {
+            float: left;
+        }*/
+        
+        .main_nav>li>a {
+            display: inline-block;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 10px 10px;
+            text-decoration: none;
+        }
+        .main_nav li a:hover, .dropdown:hover .dropbtn {
+            background-color: red;
+        }
+       
+        .main_nav li.dropdown {
+            display: inline-block;
+        }
+        .courses_nav{
+            list-style-type: circle;
+            color:black;
+            margin: 20px;
+            padding: 5px;
+            overflow: hidden;
+            background-color: blue;
+            font-size: 20px;
+        }
+        /*.courses_nav li{
+            float: left;
+        }*/
+        .courses_nav>li>a {
+            display: inline-block;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 10px 10px;
+            text-decoration: none;
+        }
+        .courses_nav li a:hover, .dropdown:hover .dropbtn {
+            background-color: red;
+        }
+       
+        .courses_nav li.dropdown {
+            display: inline-block;
+        }
+        .dropdown-content {
+            display:none;
+            position: absolute;
+            background-color: yellow;
+            color: black;
+            min-width: 160px;
+            box-shadow: 0px 10px 10px 0px;
+            z-index: 1;
+            width: 83%;
+            height: 70%;    
+        }
+        .dropdown-content a {
+            color: rgb(0, 0, 0);
+            padding: 12px 16px;
+            text-decoration: underline;
+            display: inline-block ;
+            text-align: left;
+            font-size: 20px;
+        }
+        .dropdown-content1 {
+            display: none;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+        .dropdown-content1 a {
+            color: rgb(0, 0, 0);
+            padding: 12px 12px;
+            display:inline-block ;
+            text-align: left;
+            font-size: 15px;
+        }
+        .dropdown:hover .dropdown-content1 {
+            display: block;
+        }
+        .dropdown-content a:hover {
+            color: black;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .courses_col1 ul{
+            list-style-type: circle;
+           /* font-size: 10px;*/
+        }
+        .courses_col2 ul{
+            font-size: 15px;
+            float: left;
+        }
+        .row1 , .row2 , .row3 {
+            width: 100%;
+            height: 33.3%;
+            display: block;
+    
+        }
+       
+        .col1 , .col2, .col3{
+            width: 33.30%;
+            float: left;
+        }
+        .courses_col1{
+            width: 36%;
+            float: left;
+            height: 100%;
+        }
+        .courses_col2{
+            width: 64%;
+            float: left;
+            height: 100%;
+        }
+        .left{
+            height: auto;
+            width: auto;
+            float: left;
+            padding: 5px 5px;
+            
+        }
+        .right{
+            height: 100px;
+            width: 400px;
+            padding:10px 50px 50px 50px; 
+            
+        }
+        .course-container{
+            background-color: burlywood;
+            width: 73%;
+           
+        }
+        
+       
+    </style>
+    </head>
+    <body style="background-image:url('husain.jpg'); background-size: 1400px 650px; background-repeat: no-repeat;">
+        
+        <ul class="main_nav">
+                <li class="dropdown">
+                    <!-- main navigation bar is starts from here -->
+                <a href="river1.jpg">Home </a> 
+                </li>
+                <li class="dropdown">
+                <a href="river1.jpg" class="dropbtn">Company &#8681;</a>
+                    <div class="dropdown-content">
+                        <div class="row1">
+                            <div class="col1">
+                                <div class="left"><img src="rose.jpg" height="80px" width="98px"></div>
+                                <div class="right"><a href="road1.jpg" >About Ashraf Academy</a></div>
+                            </div>
+                            <div class="col2">
+                                <div class="left"><img src="rose.jpg" height="80px" width="98px"></div>
+                                <div class="right"><a href="road1.jpg">Company Profile</a></div>
+                            </div>
+                            <div class="col3">
+                                <div class="left"><img src="rose.jpg" height="80px" width="98px"></div>
+                                <div class="right"><a href="road1.jpg">Branches</a></div>
+                            </div>
+                        </div>
+                        <div class="row2">
+                            <div class="col1">
+                                <div class="left"><img src="rose.jpg" height="80px" width="98px"></div>
+                                <div class="right"><a href="road1.jpg">Director Message</a></div>
+                            </div>
+                            <div class="col2">
+                                <div class="left"><img src="rose.jpg" height="80px" width="98px"></div>
+                                <div class="right"><a href="road1.jpg">Our Vision/Mission</a></div>
+                            </div>
+                            <div class="col3">
+                                <div class="left"><img src="rose.jpg" height="80px" width="98px"></div>
+                                <div class="right"><a href="road1.jpg">Our Startegy</a></div>
+                            </div>
+                        </div>
+                        <div class="row3">
+                            <div class="col1">
+                                <div class="left"><img src="rose.jpg" height="80px" width="98px"></div>
+                                <div class="right"><a href="road1.jpg">Award &Media</a></div>
+                            </div>
+                            <div class="col2">
+                                <div class="left"><img src="rose.jpg" height="80px" width="98px"></div>
+                                <div class="right"><a href="road1.jpg">TechCenter</a></div>
+                            </div>
+                            <div class="col3">
+                                <div class="left"><img src="rose.jpg" height="80px" width="98px"></div>
+                                <div class="right"><a href="road1.jpg">Contact Us</a></div>
+                            </div>
+                        </div>
+                
+                    </div>
+                </li>
+        
+                <li class="dropdown"><a href="river1.jpg" class="dropbtn">Services &#8681;</a>
+                    <div class="dropdown-content">
+                        <div class="row1">
+                            <div class="col1">
+                                <div class="left"><img src="rose.jpg" height="80px" width="98px"></div>
+                                <div class="right"><a href="road1.jpg" >About Ashraf Academy</a></div>
+                            </div>
+                            <div class="col2">
+                                <div class="left"><img src="rose.jpg" height="80px" width="98px"></div>
+                                <div class="right"><a href="road1.jpg">Company Profile</a></div>
+                            </div>
+                            <div class="col3">
+                                <div class="left"><img src="rose.jpg" height="80px" width="98px"></div>
+                                <div class="right"><a href="road1.jpg">Branches</a></div>
+                            </div>
+                        </div>
+                        <div class="row2">
+                            <div class="col1">
+                                <div class="left"><img src="rose.jpg" height="80px" width="98px"></div>
+                                <div class="right"><a href="road1.jpg">Director Message</a></div>
+                            </div>
+                            <div class="col2">
+                                    <div class="left"><img src="rose.jpg" height="80px" width="98px"></div>
+                                    <div class="right"><a href="road1.jpg">Our Vision/Mission</a></div>
+                            </div>
+                            <div class="col3">
+                                    <div class="left"><img src="rose.jpg" height="80px" width="98px"></div>
+                                    <div class="right"><a href="road1.jpg">Our Startegy</a></div>
+                            </div>
+                        </div>
+                        <div class="row3">
+                            <div class="col1">
+                                <div class="left"><img src="rose.jpg" height="80px" width="98px"></div>
+                                <div class="right"><a href="road1.jpg">Award &Media</a></div>
+                            </div>
+                            <div class="col2">
+                                    <div class="left"><img src="rose.jpg" height="80px" width="98px"></div>
+                                    <div class="right"><a href="road1.jpg">TechCenter</a></div>
+                            </div>
+                            <div class="col3">
+                                    <div class="left"><img src="rose.jpg" height="80px" width="98px"></div>
+                                    <div class="right"><a href="road1.jpg">Contact Us</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="dropdown"><a href="river1.jpg" class="dropbtn">Courses &#8681;</a>
+                    <div class="dropdown-content1">
+                        <div class="course-container" style="display: inline-block">
+                            <div class="courses_col1">
+                                <div>
+                                    <input style="padding:10px ; margin-top: 5px" type="text" name="searching" value="search..">
+                                
+                                    <h2>Popular Courses</h2>
+                                    <ul>
+                                    <li><a href="ilmus-sarf.pdf">ILM-US-SARF</a></li>
+                                    <li><a href="khulasatun nahw.pdf">KHULASA-TUN-NAHW</a></li>
+                                    <li><a href="minhajul arabia.pdf">MINHAJ-UL-ARABIA</a></li>
+                                    <li><a href="seerate mustafa.pdf">SEERAT-E-MUSTAFA صلى الله عليه وسلم </a></li>
+                                    <li><a href="marefat-ut-tajweed.pdf">MAREFATUT-TAJWEED</a></li>
+                                    <li><a href="anware shariat.pdf">ANWAR-E-SHARIAT</a></li> 
+                                    </ul>
+                                </div>
+                            </div>
+                        
+                            <div class="courses_col2">
+                                <div>
+                                    <ul class="courses_nav">
+                                            <li class="dropdown">
+                                            <a href="river1.jpg" class="dropbtn">HAFIZ</a> </li>
+                                            <li class="dropdown">
+                                            <a href="river1.jpg" class="dropbtn">AALIM</a></li>
+                                            <li class="dropdown">
+                                            <a href="river1.jpg" class="dropbtn">FAZIL</a></li>
+                                            <li class="dropdown">
+                                            <a href="river1.jpg" class="dropbtn">MUFTI</a> </li>
+                                            <li class="dropdown">
+                                            <a href="river1.jpg" class="dropbtn">MUHADDIS</a> </li>
+                                            <li class="dropdown">
+                                            <a href="river1.jpg" class="dropbtn">MUFAKKIR</a> </li>
+                                    
+                                    </ul>
+                                </div>
+
+                            
+                            </div>
+                       
+                        
+                        </div>
+                    </div>
+                </li>
+                <li class="dropdown"><a class="dropbtn">Why Ashraf Academy</a></li>
+                <li class="dropdown"><a href="river1.jpg">Resourse</a> </li>
+                <li class="dropdown"><a href="river1.jpg">Blog</a> </li>
+                <li class="dropdown"><a href="river1.jpg">Career</a> </li>
+                <li class="dropdown"><a href="river1.jpg">Registration</a> </li>
+                <li class="dropdown"><a href="river1.jpg">Get Enquiry</a> </li>
+                
+        
+
+        
+            </ul>
+            <ul>
+                <li></li>
+            </ul>
+        
+        </body>
+    </html>

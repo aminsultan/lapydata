@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>constructor</title>
+	</head>
+	<body>
+        <h1>learning paramaterized constructor</h1>
+        <script>
+            class A{
+                constructor(x){
+                    console.log("x="+x);  
+                }
+            }
+            class B extends A{
+                constructor(x,y){
+                    super(y);
+                    console.log("x="+x);
+                    console.log("y="+y);  
+                }
+            }
+            class C extends B{
+                constructor(x,y,z){
+                    super(x,y);
+                    console.log("x="+x);
+                    console.log("y="+y)
+                    console.log("z="+z);
+
+                }
+            }
+            var objb=new C(5,10,15);
+        </script>

@@ -1,0 +1,1 @@
+document.write("i m inside the js file i m here after calling me")

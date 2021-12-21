@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>javascript starting</title>
+    </head>
+    <body>
+        <button onclick="alert ('hello')">
+        click here</button>
+
+        <button onclick="f1()">
+        click here for internal js</button>
+        <script>
+            document.write("hello tarique");
+            function f1() {
+                alert("internal js");
+            }
+        </script>
+        
+        <script src="abc.js">
+           
+        </script>
+        <button onclick="f2()">call me</button>
+        <p id="para1">this is a para</p>
+        <script>
+            document.getElementById("para1").innerHTML="Hello JS";
+            console.log("hello from console");
+            function f3(){
+                document.write("replaced all");
+
+            }
+            f3();
+        </script>
+        <button onclick="f3()">replace</button>
+
+    </body>
+</html>

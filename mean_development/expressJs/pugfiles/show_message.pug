@@ -1,0 +1,13 @@
+html 
+    head 
+        title=MONGOOSE_1_LEARNING 
+    body 
+        if(user)
+            h1 Hi, #{user.message} 
+            h2 age = #{user.type}
+            h2 person name is = #{user.personName}
+            h2 person age is = #{user.personAge}
+            h2 person's Nationality is =  #{user.nationality}
+        else
+            h2 #{nouser.message}
+            h2 #{nouser.type}
