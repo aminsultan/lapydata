@@ -5,7 +5,7 @@ var app = express();
 var bodyParser = require('body-parser');
 
 app.set('view engine', 'pug');
-app.set('views', "./pug_files");
+app.set('views', "./pugfiles");
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -24,11 +24,11 @@ app.get("/", (req, res) => {
 });
 
 app.post("/submitdata", (req, res) => {
-    res.send(req.body.first + "<br>" + req.body.last);
+    res.send(req.body.name + "<br>" + req.body.age + "<br>" + req.body.nationality);
     let newuser = new Person({
-        name: req.body.first,
+        name: req.body.name,
         age: req.body.age,
-        nationality: req.body.last
+        nationality: req.body.nationality
     });
     newuser.save(function(err, personSchema){
         if(err) throw err;
@@ -38,7 +38,7 @@ app.post("/submitdata", (req, res) => {
     });
 });
 
-app.get("/viewall", (req, res) => {
+// app.get("/viewall", (req, res) => {
     // Person.find({ "name": "Kanishka" }, "name", function (err, res) {
     //     if (err) throw err;
     //     else {
@@ -56,13 +56,13 @@ app.get("/viewall", (req, res) => {
     // });
     // res.send("viewing all");
 
-    Person.remove({ "nationality": "Indian"}, (err, result) => {
-        if(err) throw err;
-        else{
-            console.log("REMOVED SUCCESFULLY");
-            res.send("REMOVED SUCCESFULLY");
-        }
-    });
-});
+    // Person.remove({ "nationality": "Indian"}, (err, result) => {
+    //     if(err) throw err;
+    //     else{
+    //         console.log("REMOVED SUCCESFULLY");
+    //         res.send("REMOVED SUCCESFULLY");
+    //     }
+    // });
+// });
 
 app.listen(8000);

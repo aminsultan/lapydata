@@ -1,0 +1,746 @@
+{
+    "_id": "618059cbe4f8047e176cda19",
+    "InvoiceNumber": "00001-1775",
+    "Child": "616d5dfccf2aec5fb8ac62ca",
+    "Child_sort": {
+        "_id": "616d5dfccf2aec5fb8ac62ca",
+        "PrimaryResidentialAddress": {
+            "AddressCountry_string": "New Zealand",
+            "Address1Line": "123 Taiapa Valley Road",
+            "AddressCity_string": "Waimauku",
+            "AddressPostCode": "0881",
+            "AddressCountry": "578b5a2194eea26e2bdd9ca9",
+            "AddressCity": "5c9f03167b8aaf56c268b56c",
+            "Address2Line": "591b84142a254c644b32fb4b",
+            "Address2Line_string": "Muriwai"
+        },
+        "SecondaryResidentialAddress": {
+            "Address1Line": "",
+            "AddressCity_string": "",
+            "AddressPostCode": ""
+        },
+        "PostalIAddress": {
+            "Address1Line": "",
+            "AddressCity_string": "",
+            "AddressPostCode": ""
+        },
+        "EmergencyContacts": [],
+        "AdditionalContacts": [],
+        "lastModifiedEnrollments": [
+            "6155ac6644a6f04b24a1c61d"
+        ],
+        "Invoices": [],
+        "Donations": [],
+        "centrePermissions": [],
+        "facility": "5ee1668a519d9628ee72f5b0",
+        "ApplicationDate": "2021-10-18T11:24:08.982Z",
+        "ChildStatus": "Enrolled",
+        "changetable": [],
+        "OfficialFamilyName": "Child",
+        "OfficialGiven1Name": "OctOne",
+        "ChildBirthDate": "2019-04-01T00:00:00.000Z",
+        "GenderCode": "F-Female",
+        "Waiting_Enrolments": [
+            {
+                "EnrolmentSection": {
+                    "EnrolmentStartDate": "2021-11-01T00:00:00.000Z"
+                },
+                "_id": "6155ac6644a6f04b24a1c61d",
+                "BookingSchedule": [
+                    {
+                        "_id": "6155ac6644a6f04b24a1c61e",
+                        "extraData": [
+                            {
+                                "Monday": {
+                                    "waitingDay": true
+                                },
+                                "Tuesday": {
+                                    "waitingDay": true
+                                },
+                                "Wednesday": {
+                                    "waitingDay": true
+                                },
+                                "_id": "616d5959adb1324c6716fc33"
+                            }
+                        ],
+                        "Times": [
+                            {
+                                "_id": "6155ac6644a6f04b24a1c61f",
+                                "MondaySession": "Specific Timings",
+                                "TuesdaySession": "Specific Timings",
+                                "WednesdaySession": "Specific Timings",
+                                "ThursdaySession": "Specific Timings",
+                                "FridaySession": "Specific Timings",
+                                "SaturdaySession": "Specific Timings",
+                                "SundaySession": "Specific Timings",
+                                "MondayStart": "09:15",
+                                "TuesdayStart": "09:30",
+                                "WednesdayStart": "10:00",
+                                "MondayEnd": "16:15",
+                                "TuesdayEnd": "16:00",
+                                "WednesdayEnd": "15:45"
+                            }
+                        ],
+                        "EffectiveDate": "2021-11-01T00:00:00.000Z"
+                    }
+                ]
+            }
+        ],
+        "parentchildrelation": [
+            {
+                "_id": "616d5dfccf2aec5fb8ac62cf",
+                "parent": "616d5dfccf2aec5fb8ac62be",
+                "relation": "5626008aa853533c4ede0ee6"
+            },
+            {
+                "_id": "617fdcf8dd6b3f23a18839ad",
+                "parent": "617fdcaedd6b3f23a188394b",
+                "relation": "5626005fa853533c4ede0ee4"
+            }
+        ],
+        "Enrolments": [
+            {
+                "EnrolmentSection": {
+                    "EnrolmentStartDate": "2021-10-19T00:00:00.000Z",
+                    "enrolStartDateDisabled": true,
+                    "enrolEndDateDisabled": false
+                },
+                "_id": "6155ac6644a6f04b24a1c61d",
+                "BookingSchedule": [
+                    {
+                        "_id": "617fdd3bdd6b3f23a1883a11",
+                        "EffectiveDate": "2021-10-18T11:00:00.000Z",
+                        "extraData": [],
+                        "Times": [
+                            {
+                                "_id": "617fdd3bdd6b3f23a1883a12",
+                                "MondaySession": "Full Day",
+                                "TuesdaySession": "Full Day",
+                                "WednesdaySession": "Full Day",
+                                "ThursdaySession": "Full Day",
+                                "FridaySession": "Full Day",
+                                "SaturdaySession": "Specific Timings",
+                                "SundaySession": "Specific Timings",
+                                "MondayStart": "08:45",
+                                "MondayEnd": "15:15",
+                                "TuesdayStart": "08:45",
+                                "TuesdayEnd": "15:15",
+                                "WednesdayStart": "08:45",
+                                "WednesdayEnd": "15:15",
+                                "ThursdayStart": "08:45",
+                                "ThursdayEnd": "15:15",
+                                "FridayStart": "08:45",
+                                "FridayEnd": "15:15"
+                            }
+                        ],
+                        "TemporaryBooking": false
+                    }
+                ]
+            }
+        ],
+        "PersonsWhoCannotPickUpYourChild": [],
+        "Vaccinations": [],
+        "Medicine": [],
+        "created": "2021-10-18T11:43:56.861Z",
+        "lastModified": "2021-09-30T12:24:06.193Z",
+        "DoctorsName": "Dr. John James",
+        "EthnicGroup1Code": "5f9969d3bd6d0adacad67941",
+        "HomeLanguage1Code": "5653bf1adb9fe12e0bb5782f",
+        "Notes": [
+            {
+                "_id": "616d5dfccf2aec5fb8ac62d0",
+                "Type": "616d50fccf2aec5fb8ac0dbd",
+                "detail": "Test Enquiry Notes1"
+            }
+        ],
+        "EnrolmentReference": "2021-10-05T00:00:00.000Z",
+        "createdBy": "5f72558c3fe85f4857143ff6",
+        "errorMessage": "",
+        "ChildImage": [],
+        "contacttochildrelation": [],
+        "additionaltochildrelation": [],
+        "Oscar_Enrolments": [],
+        "Payee": [
+            {
+                "_id": "617fdcf8dd6b3f23a18839b5",
+                "Gaurdian": "616d5dfccf2aec5fb8ac62be",
+                "AmountType": "Percentage Share",
+                "Amount": 100
+            },
+            {
+                "_id": "617fdcf8dd6b3f23a18839b4",
+                "Gaurdian": "617fdcaedd6b3f23a188394b",
+                "AmountType": "Percentage Share",
+                "Amount": 100
+            }
+        ],
+        "winz": [],
+        "Fees": [],
+        "HourlyFee": [
+            {
+                "recurrence": {
+                    "weekly": {
+                        "recurrinterval": 2,
+                        "Monday": true
+                    },
+                    "daily": null,
+                    "monthly": null,
+                    "yearly": null
+                },
+                "_id": "617fdd67dd6b3f23a1883a50",
+                "EffectiveStartDate": "2021-10-17T11:00:00.000Z",
+                "recurrpattern": "weekly",
+                "Notes": "",
+                "Discount": null,
+                "discountType": "%",
+                "payee": "616d5dfccf2aec5fb8ac62be",
+                "FeesStructure": {
+                    "_id": "5f9f4781894c880fb808067b",
+                    "winzApplied": null,
+                    "payee": "616d5dfccf2aec5fb8ac62be",
+                    "Name": "Hourly Fee",
+                    "Description": "Hourly Fee",
+                    "discountAmount": 0,
+                    "applywinzBeforeGst": 0,
+                    "winzAmount": "0.00",
+                    "calculateDiscountParam": "after"
+                }
+            },
+            {
+                "recurrence": {
+                    "weekly": {
+                        "recurrinterval": 2,
+                        "Monday": true
+                    },
+                    "daily": null,
+                    "monthly": null,
+                    "yearly": null
+                },
+                "_id": "617fdd63dd6b3f23a1883a3a",
+                "EffectiveStartDate": "2021-10-24T11:00:00.000Z",
+                "recurrpattern": "weekly",
+                "Notes": "",
+                "discountType": "%",
+                "payee": "617fdcaedd6b3f23a188394b",
+                "FeesStructure": {
+                    "_id": "5f9f4781894c880fb808067b",
+                    "winzApplied": null,
+                    "payee": [
+                        {
+                            "_id": "617fdcf8dd6b3f23a18839b5",
+                            "Gaurdian": "616d5dfccf2aec5fb8ac62be",
+                            "AmountType": "Percentage Share",
+                            "Amount": 100
+                        },
+                        {
+                            "_id": "617fdcf8dd6b3f23a18839b4",
+                            "Gaurdian": "617fdcaedd6b3f23a188394b",
+                            "AmountType": "Percentage Share",
+                            "Amount": 100
+                        }
+                    ],
+                    "Name": "Hourly Fee",
+                    "Description": "Hourly Fee",
+                    "discountAmount": 0,
+                    "applywinzBeforeGst": 0,
+                    "winzAmount": "0.00",
+                    "calculateDiscountParam": "after"
+                }
+            }
+        ],
+        "KioskNotes": [],
+        "Documents": [],
+        "PreviousChildStatus": "Enrolled",
+        "__v": 13,
+        "ChildEntityId": "616d5dfccf2aec5fb8ac62ca",
+        "Age": "2019-04-01T00:00:00.000Z",
+        "BookingEffectiveDate": "2021-10-18T11:00:00.000Z",
+        "EnrolmentStartDate": "2021-10-19T00:00:00.000Z",
+        "NationalStudentNumber": 134234232,
+        "ProofOfIdentitySighted": "552498a77b0b1acb2efc55a9",
+        "changeWaitingStatus": "2021-10-18T11:48:59.480Z",
+        "AccountName": "Child OctOne",
+        "EthnicGroup2Code": null,
+        "EthnicGroup3Code": null,
+        "closeAccount": false
+    },
+    "Child_fees": [
+        {
+            "_id": "616d5dfccf2aec5fb8ac62ca",
+            "PrimaryResidentialAddress": {
+                "AddressCountry_string": "New Zealand",
+                "Address1Line": "123 Taiapa Valley Road",
+                "AddressCity_string": "Waimauku",
+                "AddressPostCode": "0881",
+                "AddressCountry": "578b5a2194eea26e2bdd9ca9",
+                "AddressCity": "5c9f03167b8aaf56c268b56c",
+                "Address2Line": "591b84142a254c644b32fb4b",
+                "Address2Line_string": "Muriwai"
+            },
+            "SecondaryResidentialAddress": {
+                "Address1Line": "",
+                "AddressCity_string": "",
+                "AddressPostCode": ""
+            },
+            "PostalIAddress": {
+                "Address1Line": "",
+                "AddressCity_string": "",
+                "AddressPostCode": ""
+            },
+            "EmergencyContacts": [],
+            "AdditionalContacts": [],
+            "lastModifiedEnrollments": [
+                "6155ac6644a6f04b24a1c61d"
+            ],
+            "Invoices": [],
+            "Donations": [],
+            "centrePermissions": [],
+            "facility": "5ee1668a519d9628ee72f5b0",
+            "ApplicationDate": "2021-10-18T11:24:08.982Z",
+            "ChildStatus": "Enrolled",
+            "changetable": [],
+            "OfficialFamilyName": "Child",
+            "OfficialGiven1Name": "OctOne",
+            "ChildBirthDate": "2019-04-01T00:00:00.000Z",
+            "GenderCode": "F-Female",
+            "Waiting_Enrolments": [
+                {
+                    "EnrolmentSection": {
+                        "EnrolmentStartDate": "2021-11-01T00:00:00.000Z"
+                    },
+                    "_id": "6155ac6644a6f04b24a1c61d",
+                    "BookingSchedule": [
+                        {
+                            "_id": "6155ac6644a6f04b24a1c61e",
+                            "extraData": [
+                                {
+                                    "Monday": {
+                                        "waitingDay": true
+                                    },
+                                    "Tuesday": {
+                                        "waitingDay": true
+                                    },
+                                    "Wednesday": {
+                                        "waitingDay": true
+                                    },
+                                    "_id": "616d5959adb1324c6716fc33"
+                                }
+                            ],
+                            "Times": [
+                                {
+                                    "_id": "6155ac6644a6f04b24a1c61f",
+                                    "MondaySession": "Specific Timings",
+                                    "TuesdaySession": "Specific Timings",
+                                    "WednesdaySession": "Specific Timings",
+                                    "ThursdaySession": "Specific Timings",
+                                    "FridaySession": "Specific Timings",
+                                    "SaturdaySession": "Specific Timings",
+                                    "SundaySession": "Specific Timings",
+                                    "MondayStart": "09:15",
+                                    "TuesdayStart": "09:30",
+                                    "WednesdayStart": "10:00",
+                                    "MondayEnd": "16:15",
+                                    "TuesdayEnd": "16:00",
+                                    "WednesdayEnd": "15:45"
+                                }
+                            ],
+                            "EffectiveDate": "2021-11-01T00:00:00.000Z"
+                        }
+                    ]
+                }
+            ],
+            "parentchildrelation": [
+                {
+                    "_id": "616d5dfccf2aec5fb8ac62cf",
+                    "parent": "616d5dfccf2aec5fb8ac62be",
+                    "relation": "5626008aa853533c4ede0ee6"
+                },
+                {
+                    "_id": "617fdcf8dd6b3f23a18839ad",
+                    "parent": "617fdcaedd6b3f23a188394b",
+                    "relation": "5626005fa853533c4ede0ee4"
+                }
+            ],
+            "Enrolments": [
+                {
+                    "EnrolmentSection": {
+                        "EnrolmentStartDate": "2021-10-19T00:00:00.000Z",
+                        "enrolStartDateDisabled": true,
+                        "enrolEndDateDisabled": false
+                    },
+                    "_id": "6155ac6644a6f04b24a1c61d",
+                    "BookingSchedule": [
+                        {
+                            "_id": "617fdd3bdd6b3f23a1883a11",
+                            "EffectiveDate": "2021-10-18T11:00:00.000Z",
+                            "extraData": [],
+                            "Times": [
+                                {
+                                    "_id": "617fdd3bdd6b3f23a1883a12",
+                                    "MondaySession": "Full Day",
+                                    "TuesdaySession": "Full Day",
+                                    "WednesdaySession": "Full Day",
+                                    "ThursdaySession": "Full Day",
+                                    "FridaySession": "Full Day",
+                                    "SaturdaySession": "Specific Timings",
+                                    "SundaySession": "Specific Timings",
+                                    "MondayStart": "08:45",
+                                    "MondayEnd": "15:15",
+                                    "TuesdayStart": "08:45",
+                                    "TuesdayEnd": "15:15",
+                                    "WednesdayStart": "08:45",
+                                    "WednesdayEnd": "15:15",
+                                    "ThursdayStart": "08:45",
+                                    "ThursdayEnd": "15:15",
+                                    "FridayStart": "08:45",
+                                    "FridayEnd": "15:15"
+                                }
+                            ],
+                            "TemporaryBooking": false
+                        }
+                    ]
+                }
+            ],
+            "PersonsWhoCannotPickUpYourChild": [],
+            "Vaccinations": [],
+            "Medicine": [],
+            "created": "2021-10-18T11:43:56.861Z",
+            "lastModified": "2021-09-30T12:24:06.193Z",
+            "DoctorsName": "Dr. John James",
+            "EthnicGroup1Code": "5f9969d3bd6d0adacad67941",
+            "HomeLanguage1Code": "5653bf1adb9fe12e0bb5782f",
+            "Notes": [
+                {
+                    "_id": "616d5dfccf2aec5fb8ac62d0",
+                    "Type": "616d50fccf2aec5fb8ac0dbd",
+                    "detail": "Test Enquiry Notes1"
+                }
+            ],
+            "EnrolmentReference": "2021-10-05T00:00:00.000Z",
+            "createdBy": "5f72558c3fe85f4857143ff6",
+            "errorMessage": "",
+            "ChildImage": [],
+            "contacttochildrelation": [],
+            "additionaltochildrelation": [],
+            "Oscar_Enrolments": [],
+            "Payee": [
+                {
+                    "_id": "617fdcf8dd6b3f23a18839b5",
+                    "Gaurdian": "616d5dfccf2aec5fb8ac62be",
+                    "AmountType": "Percentage Share",
+                    "Amount": 100
+                },
+                {
+                    "_id": "617fdcf8dd6b3f23a18839b4",
+                    "Gaurdian": "617fdcaedd6b3f23a188394b",
+                    "AmountType": "Percentage Share",
+                    "Amount": 100
+                }
+            ],
+            "winz": [],
+            "Fees": [],
+            "HourlyFee": [
+                {
+                    "recurrence": {
+                        "weekly": {
+                            "recurrinterval": 2,
+                            "Monday": true
+                        },
+                        "daily": null,
+                        "monthly": null,
+                        "yearly": null
+                    },
+                    "_id": "617fdd67dd6b3f23a1883a50",
+                    "EffectiveStartDate": "2021-10-17T11:00:00.000Z",
+                    "recurrpattern": "weekly",
+                    "Notes": "",
+                    "Discount": null,
+                    "discountType": "%",
+                    "payee": "616d5dfccf2aec5fb8ac62be",
+                    "FeesStructure": {
+                        "_id": "5f9f4781894c880fb808067b",
+                        "winzApplied": null,
+                        "payee": "616d5dfccf2aec5fb8ac62be",
+                        "Name": "Hourly Fee",
+                        "Description": "Hourly Fee",
+                        "discountAmount": 0,
+                        "applywinzBeforeGst": 0,
+                        "winzAmount": "0.00",
+                        "calculateDiscountParam": "after"
+                    }
+                },
+                {
+                    "recurrence": {
+                        "weekly": {
+                            "recurrinterval": 2,
+                            "Monday": true
+                        },
+                        "daily": null,
+                        "monthly": null,
+                        "yearly": null
+                    },
+                    "_id": "617fdd63dd6b3f23a1883a3a",
+                    "EffectiveStartDate": "2021-10-24T11:00:00.000Z",
+                    "recurrpattern": "weekly",
+                    "Notes": "",
+                    "discountType": "%",
+                    "payee": "617fdcaedd6b3f23a188394b",
+                    "FeesStructure": {
+                        "_id": "5f9f4781894c880fb808067b",
+                        "winzApplied": null,
+                        "payee": [
+                            {
+                                "_id": "617fdcf8dd6b3f23a18839b5",
+                                "Gaurdian": "616d5dfccf2aec5fb8ac62be",
+                                "AmountType": "Percentage Share",
+                                "Amount": 100
+                            },
+                            {
+                                "_id": "617fdcf8dd6b3f23a18839b4",
+                                "Gaurdian": "617fdcaedd6b3f23a188394b",
+                                "AmountType": "Percentage Share",
+                                "Amount": 100
+                            }
+                        ],
+                        "Name": "Hourly Fee",
+                        "Description": "Hourly Fee",
+                        "discountAmount": 0,
+                        "applywinzBeforeGst": 0,
+                        "winzAmount": "0.00",
+                        "calculateDiscountParam": "after"
+                    }
+                }
+            ],
+            "KioskNotes": [],
+            "Documents": [],
+            "PreviousChildStatus": "Enrolled",
+            "__v": 13,
+            "ChildEntityId": "616d5dfccf2aec5fb8ac62ca",
+            "Age": "2019-04-01T00:00:00.000Z",
+            "BookingEffectiveDate": "2021-10-18T11:00:00.000Z",
+            "EnrolmentStartDate": "2021-10-19T00:00:00.000Z",
+            "NationalStudentNumber": 134234232,
+            "ProofOfIdentitySighted": "552498a77b0b1acb2efc55a9",
+            "changeWaitingStatus": "2021-10-18T11:48:59.480Z",
+            "AccountName": "Child OctOne",
+            "EthnicGroup2Code": null,
+            "EthnicGroup3Code": null,
+            "closeAccount": false
+        }
+    ],
+    "winz": [],
+    "parent": {
+        "_id": "616d5dfccf2aec5fb8ac62be",
+        "Address": {
+            "Address1Line": "",
+            "AddressPostCode": "",
+            "AddressCity_string": "",
+            "Address2Line_string": "",
+            "AddressCountry_string": ""
+        },
+        "Type": "Parent",
+        "Children": [],
+        "GivenName": "Parent",
+        "FamilyNameSurname": "OctOne",
+        "Email": "fathimi@maceit.co.nz",
+        "VerifyEmail": "fathimi@maceit.co.nz",
+        "MobilePhone": "342342343",
+        "RelationshipToChild": "5626008aa853533c4ede0ee6",
+        "facility": "5ee1668a519d9628ee72f5b0",
+        "createdBy": "5f72558c3fe85f4857143ff6",
+        "created": "2021-10-18T11:43:56.328Z",
+        "lastModified": "2021-10-18T11:43:56.330Z",
+        "changetable": [],
+        "Username": "",
+        "Password": "",
+        "Kioskpin": "5138",
+        "__v": 0,
+        "Account_Name": "00001-PO03"
+    },
+    "IssueDate": "2021-11-01T21:19:07.443Z",
+    "Reference": {
+        "StartDate": "2021-10-31T11:00:00.000Z",
+        "EndDate": "2021-11-07T10:59:59.999Z"
+    },
+    "DueDate": "2021-11-08T21:19:07.443Z",
+    "Status": "Draft",
+    "Fees": [
+        {
+            "_id": "618059cbe4f8047e176cda1a",
+            "FeeId": "5f9f4781894c880fb808067b",
+            "FeesName": "Hourly Fee",
+            "FeesDescription": "Hourly Fee $234.5",
+            "Date": "2021-10-31T11:00:00.000Z",
+            "Amount": "234.50",
+            "Discount": "0",
+            "GSTValue": "30.58695652173913",
+            "Total": "234.5",
+            "Qty": "1",
+            "Child": "616d5dfccf2aec5fb8ac62ca",
+            "Unit": "1",
+            "Type": "hourly",
+            "HourlyFeeCount": 5,
+            "HourlyFeeNotes": [
+                {
+                    "_id": "618059cbe4f8047e176cda1b",
+                    "Description": "test--",
+                    "Amount": "52.50",
+                    "Total": "52.50",
+                    "Date": "2021-10-31T11:00:00.000Z",
+                    "TwentyHours": 0,
+                    "HourlyFeeDiscountAmount": 0,
+                    "NormalHours": 7.5
+                },
+                {
+                    "_id": "618059cce4f8047e176cda87",
+                    "Description": "test2",
+                    "Amount": "45.50",
+                    "Total": "45.50",
+                    "Date": "2021-11-01T11:00:00.000Z",
+                    "TwentyHours": 0,
+                    "HourlyFeeDiscountAmount": 0,
+                    "NormalHours": 6.5
+                },
+                {
+                    "_id": "618059cde4f8047e176cdad5",
+                    "Description": "test2",
+                    "Amount": "45.50",
+                    "Total": "45.50",
+                    "Date": "2021-11-02T11:00:00.000Z",
+                    "TwentyHours": 0,
+                    "HourlyFeeDiscountAmount": 0,
+                    "NormalHours": 6.5
+                },
+                {
+                    "_id": "618059cee4f8047e176cdb35",
+                    "Description": "test2",
+                    "Amount": "45.50",
+                    "Total": "45.50",
+                    "Date": "2021-11-03T11:00:00.000Z",
+                    "TwentyHours": 0,
+                    "HourlyFeeDiscountAmount": 0,
+                    "NormalHours": 6.5
+                },
+                {
+                    "_id": "618059cfe4f8047e176cdb73",
+                    "Description": "test2",
+                    "Amount": "45.50",
+                    "Total": "45.50",
+                    "Date": "2021-11-04T11:00:00.000Z",
+                    "TwentyHours": 0,
+                    "HourlyFeeDiscountAmount": 0,
+                    "NormalHours": 6.5
+                }
+            ],
+            "HourlyFeesSettingData": {
+                "_id": "5f9f4781894c880fb808067b",
+                "ececharges": true,
+                "normalcharges": true,
+                "no_of_hours": 10,
+                "hourly_rate": "{\"0\":{\".50\":{\"charge\":5}},\"1\":{\"0\":{\"charge\":7},\".50\":{\"charge\":10.5}},\"2\":{\"0\":{\"charge\":14},\".50\":{\"charge\":17.5}},\"3\":{\"0\":{\"charge\":21},\".50\":{\"charge\":24.5}},\"4\":{\"0\":{\"charge\":28},\".50\":{\"charge\":31.5}},\"5\":{\"0\":{\"charge\":35},\".50\":{\"charge\":38.5}},\"6\":{\"0\":{\"charge\":42},\".50\":{\"charge\":45.5}},\"7\":{\"0\":{\"charge\":49},\".50\":{\"charge\":52.5}},\"8\":{\"0\":{\"charge\":56},\".50\":{\"charge\":59.5}},\"9\":{\"0\":{\"charge\":63},\".50\":{\"charge\":66.5}},\"10\":{\"0\":{\"charge\":70}}}",
+                "fee_name": "Hourly Fee",
+                "fee_description": "Hourly Fee",
+                "facility": "5ee1668a519d9628ee72f5b0",
+                "createdBy": "5f72558c3fe85f4857143ff6",
+                "created": "2020-11-01T23:40:49.239Z",
+                "lastModified": "2020-11-01T23:40:49.241Z",
+                "changetable": [],
+                "__v": 0,
+                "GlCode": "260",
+                "fee_charge": "{\"1\":{\"max\":null},\"2\":{\"max\":null},\"3\":{\"max\":null},\"4\":{\"max\":null},\"5\":{\"max\":null}}",
+                "holiday_discount": 100,
+                "hourly_rate_ece": "{\"6\":{\"0\":{\"charge_ece\":0}}}",
+                "late_charge_amount": null,
+                "late_charge_time": null,
+                "temp_discount": 100,
+                "attendance_discount": 50
+            },
+            "HourlyFeesChildData": {
+                "recurrence": {
+                    "weekly": {
+                        "recurrinterval": 2,
+                        "Monday": true
+                    },
+                    "daily": null,
+                    "monthly": null,
+                    "yearly": null
+                },
+                "_id": "617fdd67dd6b3f23a1883a50",
+                "EffectiveStartDate": "2021-10-17T11:00:00.000Z",
+                "recurrpattern": "weekly",
+                "Notes": "",
+                "Discount": null,
+                "discountType": "%",
+                "payee": "616d5dfccf2aec5fb8ac62be",
+                "FeesStructure": {
+                    "_id": "5f9f4781894c880fb808067b",
+                    "winzApplied": null,
+                    "payee": "616d5dfccf2aec5fb8ac62be",
+                    "Name": "Hourly Fee",
+                    "Description": "Hourly Fee",
+                    "discountAmount": 0,
+                    "applywinzBeforeGst": 0,
+                    "winzAmount": "0.00",
+                    "calculateDiscountParam": "after"
+                }
+            },
+            "Subtotal": "234.5",
+            "extraData": {
+                "winzAmount": 0,
+                "applywinzBeforeGst": false,
+                "totalChargeUnit": 234.5,
+                "actualAmount_hourlyFees": {
+                    "Amount": 234.5,
+                    "mapping": ""
+                },
+                "DiscountParm": "after"
+            },
+            "weekend": "true"
+        }
+    ],
+    "GST": "15",
+    "Facility": {
+        "PhysicalAddress": {
+            "Address1Line": "Suite 2, 3053 Great North Road",
+            "AddressPostCode": "0600",
+            "AddressCountry": "578b5a2194eea26e2bdd9ca9",
+            "AddressCity": "577418b945d1b2640cd1f6f4",
+            "Address2Line": "56308a390c18c8e21ea01e84"
+        },
+        "_id": "5ee1668a519d9628ee72f5b0",
+        "name": "Juniorlogs Demo Centre",
+        "BankAccountNumber": "00-000-0000000-00",
+        "InvoiceFooterNotes": {
+            "notes": "<p>Thanks</p>\n\n<p>Your invoice is due for payment on Invoice DueDate. Please pay via internet banking into bank account&nbsp;with payment reference number when you make payment.</p>\n\n<p>JL Demo Centre</p>\n"
+        },
+        "InvoiceEmailBody": {
+            "emailBody": "<p>Please find attached your latest invoice.</p>\n\n<p>If you have any questions, please let us know.</p>\n\n<p>Thank you for your business.</p>\n"
+        },
+        "GSTNumber": "12345678",
+        "sendEmail": false,
+        "paidInvoiceZeroDollar": true
+    },
+    "SubTotal": "234.50",
+    "GSTValue": "30.58695652173913",
+    "Total": "234.50",
+    "Balance": "234.50",
+    "parentInvoiceNumber": "00001-1775",
+    "created": "2021-11-01T21:19:07.450Z",
+    "AmountPaid": [],
+    "AmountPaid_": [],
+    "Status_": "AA",
+    "lastModified": "2021-11-01T21:19:14.968Z",
+    "changetable": [],
+    "InvoiceCounter": 1775,
+    "_Total": 234.5,
+    "_Balance": 234.5,
+    "_Paid": 0,
+    "_To": "616d5dfccf2aec5fb8ac62be",
+    "To": "616d5dfccf2aec5fb8ac62be",
+    "winzTo": [
+        {
+            "_id": "618059cbe4f8047e176cda19",
+            "To": "616d5dfccf2aec5fb8ac62be"
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+//- html 
+//-     head 
+//-         title View 
+//-     body 
+//-         table(style="width:100%",border:"1")
+//-             thead
+//-                 tr    
+//-                     th Title 
+//-                     th Link 
+//-                     th Creator 
+//-                     th Publish Date
+//-                 - for (var i=0; i<3; i++)
+//-                     div= arr[i]
+
+//-                 tr #{item.title} 
+//-                 tr a(href="#{item.link}") 
+//-                 tr #{item.creator} 
+//-                 tr #{item.pubDate} 
+
+html 
+    head 
+        style.
+            table {
+                border-collapse: collapse;
+                  width: 100%;
+            }
+            td,th {
+                border: 1px solid black;
+                text-align: left;
+                padding: 8px;
+            }
+        title View 
+    body 
+        table
+            
+            tr    
+                th Title 
+                th Link 
+                th Creator 
+                th Publish Date
+            each n in items 
+                tr
+                    td= n.title
+                    td
+                        a(href=n.link) #{n.link} 
+                    td= n.creator
+                    td= n.pubDate
